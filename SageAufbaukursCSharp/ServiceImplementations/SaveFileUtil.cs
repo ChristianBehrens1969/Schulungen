@@ -59,6 +59,10 @@ namespace SageAufbaukursCSharp.ServiceImplementations
                                 
             }
 
+            catch (PathTooLongException ptle)
+            {
+
+            }
             catch (Exception ex)
             {
                 Fault = ex;
