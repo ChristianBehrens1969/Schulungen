@@ -7,6 +7,9 @@ using System.Windows.Input;
 
 namespace SageAufbaukursCSharp
 {
+    /// <summary>
+    /// Wo ist Beehle?
+    /// </summary>
     public class ActionCommand : ICommand
     {
         #region ICommand
